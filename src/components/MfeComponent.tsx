@@ -1,3 +1,5 @@
+import { Button } from "@mui/material";
+
 export default function MfeComponent() {
-  return "Hello from MFE2";
+  return <Button variant="contained">Hello from MFE2</Button>;
 }

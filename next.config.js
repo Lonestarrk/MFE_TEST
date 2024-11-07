@@ -11,10 +11,25 @@ const nextConfig = {
         exposes: {
           "./MfeComponent": "./src/components/MfeComponent.tsx",
         },
-        shared: {
-          react: { singleton: true, requiredVersion: false },
-          "react-dom": { singleton: true, requiredVersion: false },
-        },
+        // shared: {
+        //   react: { singleton: false, requiredVersion: false },
+        //   "react-dom": { singleton: false, requiredVersion: false },
+        //   "@emotion/react": {
+        //     singleton: false,
+        //     eager: false,
+        //     requiredVersion: "11.13.3",
+        //   },
+        //   "@emotion/styled": {
+        //     singleton: false,
+        //     eager: false,
+        //     requiredVersion: "11.13.3",
+        //   },
+        //   "@mui/material": {
+        //     singleton: false,
+        //     eager: false,
+        //     requiredVersion: "6.1.6",
+        //   },
+        // },
       })
     );
 

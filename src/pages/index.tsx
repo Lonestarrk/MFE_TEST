@@ -1,3 +1,5 @@
+import MfeComponent from "@/components/MfeComponent";
+
 export default function App() {
-  return "index";
+  return <MfeComponent />;
 }
